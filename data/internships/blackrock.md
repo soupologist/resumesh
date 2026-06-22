@@ -8,22 +8,31 @@ end: 2026-06
 
 skills:
   - Python
-  - Java
   - RAG
-  - Tree-sitter
+  - FastAPI
+  - LangChain
   - Google ADK
+  - Qdrant
   - Vector Search
+  - Streamlit
+  - WebSockets
+  - Tree-sitter
 
 tags:
   - ai
   - agents
   - retrieval
+  - backend
 ---
 
-Built an LLM-powered codebase understanding agent...
+Built RAG-based agents for natural-language querying over internal codebases and documentation, integrating BlackRock's internal AI APIs with bearer and client-credentials authentication flows.
 
-Designed a code-aware embedding pipeline...
+Designed and prototyped specialized sub-agents for database (Sybase/ASE), SSH host, and Confluence/wiki connectivity, extending the core RAG agent with domain-specific tool-calling capabilities for downstream analysis workflows.
 
-Developed an agentic workflow...
+Packaged a codebase-to-embeddings workflow as a FastAPI service with branch and bearer-token support, distributing it to teammates for use across related internal projects.
 
-Extended the system with SQL, SSH and Wiki sub-agents...
+Set up Qdrant as a hosted vector database, enabling shared embedding storage and retrieval across the team without relying on local vector-store files.
+
+Scaffolded a regression-viewer backend integrating internal database libraries (Sybase/ASE) and real-time communication via WebSockets.
+
+Evaluated AI orchestration approaches including LangChain, Google ADK, tool-calling agents, and graph-based reasoning across multiple prototype iterations.
