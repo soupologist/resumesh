@@ -33,15 +33,15 @@ tags:
 
 # AI Engineering
 
-Built multiple RAG-based agents for natural-language querying over internal codebases and documentation — starting with test codebases, then expanding to PRAADA and W/mono-W systems.
+Built multiple RAG-based agents for natural-language querying over internal codebases and documentation — starting with test codebases, then expanding to production engines.
 
 Designed ingestion pipelines to convert codebases and wiki/documentation into structured JSONL and Markdown formats, generate AI summaries per chunk, embed them, and store and search them through vector databases.
 
-Worked on Summary Server and PRAADA report workflows: generating reports from server-side processes, parsing XML/report outputs, extracting formulas from Excel tie-outs, embedding report context, and adding agent tools to retrieve and explain report information.
+Worked on summary engine report workflows: generating reports from server-side processes, parsing XML/report outputs, extracting formulas from Excel tie-outs, embedding report context, and adding agent tools to retrieve and explain report information.
 
 Explored retrieval strategies for explaining derived and calculated columns — including reading full files instead of just chunks, adjusting chunking granularity, and adapting retrieval approach based on feedback from domain experts.
 
-Worked on W-agent and mono-W knowledge tooling: embedded the W codebase, extracted workflow queries, integrated dependency-graph documentation, and extended the existing agent toolset with W-specific analysis capabilities.
+Worked on mono-W knowledge tooling: embedded the W codebase, extracted workflow queries, integrated dependency-graph documentation, and extended the existing agent toolset with W-specific analysis capabilities.
 
 Integrated internal AI model access through RockAI and BlackRock-approved chat-completions APIs, handling API-key setup, authentication flows (bearer tokens, basic auth, client-credentials), and reducing manual token refreshes by moving to client-credentials.
 
